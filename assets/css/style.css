@@ -1,0 +1,35 @@
+body {
+    background-color: salmon;
+    height: 100vh;
+    padding: 100px;
+}
+
+@media (max-width: 576px) {
+    body {
+        height: 100vh;
+        padding: 0 !important;
+    }
+
+    .sign-in-form {
+        order: 2;
+    }
+}
+
+.wrapper {
+    background-color: white;
+    min-height: 80vh;
+}
+
+.form-control {
+    border-radius: 30px !important;
+}
+
+.sign-in-btn {
+    border-radius: 40px;
+    background-color: salmon;
+    color: white;
+}
+
+.sign-up-title {
+    color: salmon;
+}
